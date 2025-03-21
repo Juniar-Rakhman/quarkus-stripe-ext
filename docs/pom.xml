@@ -45,11 +45,6 @@
                         <goals>
                             <goal>read-project-properties</goal>
                         </goals>
-                        <configuration>
-                            <files>
-                                <file>${project.basedir}/../.github/project.yml</file>
-                            </files>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
